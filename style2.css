@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr; 
+    grid-template-rows: 50px 50px 50px 50px; 
+    gap: 20px; 
+  }
+  
+  
+  .grid-item {
+    border: 1px solid rgb(44, 230, 7);
+    padding: 10px;
+    text-align: center;
+  }
+  .grid-item {
+	margin: 5px;
+	background: rgb(141, 248, 0);
+	text-align: center;
+	font-size: 1.5em;
+}
